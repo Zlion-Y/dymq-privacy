@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>隐私政策 · 抖音画质锁（Douyin Max Quality）</title>
+<meta name="description" content="抖音画质锁浏览器扩展的隐私政策：不收集、不传输任何用户数据。" />
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #16181c;
+    --muted: #5b616b;
+    --line: #e3e5e9;
+    --accent: #0f6b3f;
+    --code-bg: #f4f5f7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #131417;
+      --fg: #e8e9ec;
+      --muted: #9aa0a9;
+      --line: #2a2d33;
+      --accent: #7dd3a0;
+      --code-bg: #1c1e22;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    padding: 56px 24px 96px;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: system-ui, -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+    font-size: 16px;
+    line-height: 1.78;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  .kicker {
+    font-family: "Cascadia Mono", Consolas, ui-monospace, monospace;
+    font-size: 12px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  h1 { font-size: 28px; line-height: 1.4; margin: 10px 0 6px; letter-spacing: -.01em; }
+  h2 {
+    font-size: 18px;
+    margin: 44px 0 12px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+  }
+  h3 { font-size: 16px; margin: 26px 0 8px; }
+  p, li { color: var(--fg); }
+  p.lead { color: var(--muted); margin-top: 0; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  .meta { color: var(--muted); font-size: 14px; }
+  .meta span { margin-right: 18px; white-space: nowrap; }
+  .callout {
+    margin: 26px 0;
+    padding: 16px 20px;
+    border-left: 3px solid var(--accent);
+    background: var(--code-bg);
+  }
+  .callout p { margin: 0; }
+  .callout strong { color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 15px; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-weight: 600; color: var(--muted); font-size: 13px; letter-spacing: .04em; text-transform: uppercase; }
+  code {
+    font-family: "Cascadia Mono", Consolas, ui-monospace, monospace;
+    font-size: .9em;
+    background: var(--code-bg);
+    padding: 1px 5px;
+    border-radius: 2px;
+  }
+  footer {
+    margin-top: 56px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 13px;
+  }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <div class="kicker">Privacy Policy</div>
+  <h1>抖音画质锁 · 隐私政策</h1>
+  <p class="lead">Douyin Max Quality — 适用于 Microsoft Edge / Chrome 浏览器扩展</p>
+  <p class="meta">
+    <span>生效日期：2026 年 11 月 5 日</span>
+    <span>最后更新：2026 年 11 月 5 日</span>
+    <span>适用版本：1.4.0 及以上</span>
+  </p>
+
+  <div class="callout">
+    <p><strong>一句话结论：本扩展不收集、不存储、不传输任何用户数据。</strong>
+    全部功能在本机浏览器内完成，扩展自身不发起任何网络请求。</p>
+  </div>
+
+  <h2>一、我们是谁</h2>
+  <p>本扩展（下称"本扩展"）由个人开发者独立开发与维护，通过 Microsoft Edge Add-ons 商店分发。本扩展为非官方工具，与抖音、字节跳动及其关联公司没有任何隶属、合作或背书关系。</p>
+
+  <h2>二、我们不收集哪些数据</h2>
+  <p>本扩展不采集、不存储、不传输下列任何一类信息：</p>
+  <ul>
+    <li>个人身份信息（姓名、邮箱、电话、账号、设备标识符等）</li>
+    <li>健康信息、财务与支付信息、身份验证信息</li>
+    <li>个人通讯内容（邮件、短信、聊天记录）</li>
+    <li>精确或粗略的地理位置</li>
+    <li>网页浏览历史、标签页列表、搜索记录</li>
+    <li>用户在页面上的输入、点击、滚动等行为数据</li>
+    <li>页面正文内容、视频文件、评论或任何用户生成内容</li>
+  </ul>
+  <p>本扩展不含任何统计 SDK、广告 SDK、崩溃上报或远程配置下发。</p>
+
+  <h2>三、本扩展读取什么，以及为什么</h2>
+  <p>为完成"锁定最高可用画质"这一唯一功能，本扩展必须在抖音网页版页面内读取以下两类运行时数据。它们<b>只在内存中即时使用，不写入磁盘，不离开你的设备</b>：</p>
+
+  <table>
+    <thead>
+      <tr><th>读取内容</th><th>用途</th><th>是否留存</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>抖音页面自身请求返回的视频清晰度档位数据（清晰度列表、播放地址）</td>
+        <td>在数据进入页面之前，把各档位的播放地址指向更高一档的地址，从而阻止播放器自动降清晰度</td>
+        <td>否。仅作用于当次响应，不落盘</td>
+      </tr>
+      <tr>
+        <td>当前页面上视频元素的播放状态与实际渲染分辨率</td>
+        <td>在扩展面板中如实显示"实际画质"，并在连续播放失败时自动回退到更保守的模式</td>
+        <td>否。仅在页面打开期间保存在内存</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>这些数据本来就由你访问的抖音页面自己获取与使用，本扩展只是就地改写，不会使其离开你的浏览器。</p>
+
+  <h2>四、本扩展在本地保存什么</h2>
+  <p>本扩展仅使用 <code>chrome.storage.local</code> 在本机浏览器配置目录内保存你的偏好设置：</p>
+  <ul>
+    <li>是否启用扩展</li>
+    <li>画质上限（不限 / 2160P / 1440P / 1080P / 720P）</li>
+    <li>编码偏好（是否允许 H.265、是否只用 H.264）</li>
+    <li>是否保留清晰度菜单</li>
+    <li>播放异常时用于自动降级救援的内部状态标记</li>
+  </ul>
+  <p>以上数据<b>不同步到任何云端、不上传、不共享、不用于画像或广告</b>。卸载扩展即全部删除；也可在扩展面板中随时修改。</p>
+
+  <h2>五、网络请求</h2>
+  <p>本扩展自身<b>不发起任何网络请求</b>。你在浏览器 DevTools 的网络面板中看到的所有请求，均来自抖音页面本身，与安装本扩展之前完全一致。</p>
+  <p>本扩展不加载远程代码：全部 JavaScript 随扩展包分发，不使用 <code>eval()</code>、<code>new Function()</code>、<code>importScripts()</code> 或动态脚本注入。</p>
+
+  <h2>六、权限说明</h2>
+  <table>
+    <thead>
+      <tr><th>权限</th><th>必要性</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>storage</code></td>
+        <td>保存上述本地偏好设置。无其他用途。</td>
+      </tr>
+      <tr>
+        <td><code>https://*.douyin.com/*</code></td>
+        <td>扩展的全部功能仅对抖音网页版生效。需要在该域名的页面中注入脚本以改写清晰度数据、读取播放状态。未申请 <code>&lt;all_urls&gt;</code>，也未申请 tabs、webRequest、cookies、scripting、history 等任何其他权限。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>七、与第三方共享</h2>
+  <p>不发生。本扩展没有服务器、没有数据库、没有第三方服务商，因此不存在"共享""出售""转让"用户数据的行为。</p>
+
+  <h2>八、儿童隐私</h2>
+  <p>本扩展不面向 13 岁以下儿童，也不会有意收集任何人的信息——包括儿童的信息。</p>
+
+  <h2>九、你的控制权</h2>
+  <ul>
+    <li>随时在扩展面板中关闭总开关，扩展将立即停止一切改写行为</li>
+    <li>随时在浏览器扩展管理页禁用或卸载本扩展，本地设置随之删除</li>
+    <li>清除浏览器扩展数据即可重置全部偏好</li>
+  </ul>
+
+  <h2>十、政策变更</h2>
+  <p>若未来版本引入任何涉及数据处理的新能力，本页面会在扩展更新前先行修订，并在顶部标注新的生效日期。涉及数据收集方式的实质性变更，会在扩展更新说明中单独提示。</p>
+
+  <h2>十一、联系方式</h2>
+  <p>对本政策有疑问，或希望核实本扩展的行为，可通过以下方式联系：</p>
+  <ul>
+    <li>邮箱：<a href="mailto:privacy@zlion.top">privacy@zlion.top</a></li>
+    <li>项目主页：<a href="https://zlion.top/">https://zlion.top/</a></li>
+  </ul>
+  <p>扩展代码未压缩、未混淆，安装后可在扩展目录中直接审阅全部源码以自行验证上述声明。</p>
+
+  <footer>
+    抖音画质锁 · Douyin Max Quality　|　本页为扩展在 Microsoft Edge Add-ons 商店的隐私政策声明页　|　非官方扩展，与抖音、字节跳动无隶属关系
+  </footer>
+</main>
+</body>
+</html>
